@@ -1,0 +1,20 @@
+# Keil MDK intermediate build artifacts
+firmware/MDK/Objects/
+firmware/MDK/Listings/
+firmware/MDK/DebugConfig/
+firmware/MDK/*.uvguix.*
+firmware/MDK/*.scvd
+firmware/MDK/*.log
+
+# Host simulator binaries & temp flash images
+firmware/host_sim/safeboot_sim.exe
+firmware/host_sim/build/
+*.sim.bin
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Release archive
+SafeBoot-F1_Complete.zip
